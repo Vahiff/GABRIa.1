@@ -1,1 +1,28 @@
-{"name":"fleet-prestige-android-ready","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0","cap:add:android":"npx cap add android","cap:sync":"npx cap sync android","android:build":"npm run build && npx cap sync android && cd android && ./gradlew assembleDebug"},"dependencies":{"@capacitor/android":"latest","@capacitor/cli":"latest","@capacitor/core":"latest","@vitejs/plugin-react":"latest","vite":"latest","typescript":"latest","react":"latest","react-dom":"latest","lucide-react":"latest"},"devDependencies":{}}
+{
+  "name": "fleet-prestige-android-ready",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "android:build": "npm run build && npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/cli": "6.2.1",
+    "@capacitor/core": "6.2.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "6.0.7",
+    "typescript": "5.7.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.2"
+  }
+}
