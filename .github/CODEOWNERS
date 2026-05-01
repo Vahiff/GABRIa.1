@@ -1,0 +1,8 @@
+# Fleet Prestige repository ownership
+# Any pull request touching production source, workflows, or Android config requires owner review.
+
+* @Vahiff
+/.github/ @Vahiff
+/src/ @Vahiff
+/capacitor.config.ts @Vahiff
+/package.json @Vahiff
